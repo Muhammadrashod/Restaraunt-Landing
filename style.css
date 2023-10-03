@@ -1,5 +1,6 @@
 .section0 {
   padding: 0px 215px 0px;
+  background-image: url(./img/foodish.png) ;
 }
 
 * p {
@@ -26,16 +27,18 @@
 }
 .food {
   margin-top: 40px;
-  background-image: url("./img/food.png");
-
-  background-repeat: no-repeat;
-  background-position: bottom 200px left 210px;
 }
-.food img {
+.soc {
   width: 532px;
   height: 346px;
   flex-shrink: 0;
 }
+
+.fd {
+  width: 800px;
+  height: 600px;
+}
+
 .food a {
   font-family: "Circular Std";
   color: #fff;
@@ -53,11 +56,7 @@
   margin-top: 44px;
   display: flex;
 }
-.food2 {
-  width: 835px;
-  height: 534px;
-  flex-shrink: 0;
-}
+
 .social {
   display: flex;
   flex-direction: row;
@@ -114,23 +113,26 @@
   line-height: 160%;
   padding-bottom: 48px;
 }
-.button {
-  box-shadow: 0px 20px 40px 0px rgba(255, 148, 1, 0.15);
+.btn {
+  padding: 16px 30px;
+  border: none;
+  border-radius: 31px;
+  background: #ff9401;
   color: #fff;
   font-family: "Circular Std";
   font-size: 20px;
   font-weight: 500;
-  line-height: 30px;
-  text-transform: capitalize;
-  text-decoration: none;
-  width: 224px;
-  height: 62px;
-  flex-shrink: 0;
-  border-radius: 32px;
-  background: #ff9401;
-  text-align: center;
-  padding: 16px;
 }
+
+.section0 .btn {
+  display: block;
+  margin-top: 44px;
+}
+
+.section1 .btn {
+  margin-right: 200px;
+}
+
 .Orange {
   text-align: center;
   padding-top: 62px;
@@ -233,15 +235,8 @@
   height: 104px;
   flex-shrink: 0;
 }
-.section3 .button {
-  width: 224px;
-  height: 62px;
-  flex-shrink: 0;
-  border-radius: 32px;
-  background: #ff9401;
-  text-align: center;
-  padding: 16px;
-  margin-left: 688px;
+.section3 .btn {
+  margin-left: 640px;
   margin-bottom: 26px;
 }
 .section4 .way {
@@ -261,14 +256,14 @@
   height: 2px;
   flex-shrink: 0;
 }
-.downloads{
+.downloads {
   margin-bottom: 181px;
 }
 
 .download {
-width: 130px;
+  width: 130px;
 }
-.download:last-child{
+.download:last-child {
   width: 135px;
 }
 
