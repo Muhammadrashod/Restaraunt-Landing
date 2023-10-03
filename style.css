@@ -1,6 +1,8 @@
 .section0 {
   padding: 0px 215px 0px;
-  background-image: url(./img/foodish.png) ;
+  background: url(./img/foodish.png) ;
+  background-repeat: no-repeat;
+  background-position: right 80px top 148px;
 }
 
 * p {
@@ -11,6 +13,14 @@
   font-weight: 500;
   line-height: 160%;
 }
+
+.logo{
+ margin-top: 45px;
+}
+.navigation{
+  margin-top: 55px;
+}
+
 
 .logo span {
   font-family: "Playfair Display", serif;
@@ -140,12 +150,6 @@
 }
 .section2 {
   background: url(./img/salade.png) no-repeat;
-   {
-    width: 267.125px;
-    height: 178.083px;
-    transform: rotate(-26.394deg);
-    flex-shrink: 0;
-  }
 }
 
 .our {
@@ -239,6 +243,13 @@
   margin-left: 640px;
   margin-bottom: 26px;
 }
+
+.section4{
+  background-image: url(./img/cocacola.png);
+  background-repeat:no-repeat
+  
+}
+
 .section4 .way {
   margin-left: 215px;
 }
