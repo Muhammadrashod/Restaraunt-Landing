@@ -17,6 +17,16 @@
 .logo {
   margin-top: 45px;
 }
+
+.logo img {
+  width: 25px;
+  height: 25px;
+}
+
+.sandw {
+  width: 251px;
+  height: 177px;
+}
 .navigation {
   margin-top: 55px;
 }
@@ -28,6 +38,12 @@
   font-weight: 700;
   line-height: 30px;
   text-transform: lowercase;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .navigate {
   display: flex;
@@ -43,29 +59,16 @@
   flex-shrink: 0;
 }
 
+.goodfood {
+  width: 532px;
+  height: 346px;
+  flex-shrink: 0;
+}
+
 .fd {
   width: 800px;
   height: 600px;
 }
-
-.food a {
-  font-family: "Circular Std";
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  text-transform: capitalize;
-  text-decoration: none;
-  width: 240px;
-  height: 60px;
-  justify-content: center;
-  margin: 10px;
-  border-radius: 31px;
-  background: #ff9401;
-  margin-top: 44px;
-  display: flex;
-}
-
 .social {
   display: flex;
   flex-direction: row;
@@ -81,6 +84,7 @@
 }
 .way {
   display: flex;
+  flex-wrap: wrap ;
   gap: 33px 98px;
 }
 .section1 img {
@@ -348,14 +352,94 @@
   background-image: url(./img/arow.svg);
   background-repeat: no-repeat;
   background-position: left 521px top 500px;
-
-}
-/* .arrow {
-  width: 51.448px;
-  height: 31.448px;
-  flex-shrink: 0;
 }
 
+@media (max-width: 700px) {
+  .section0 {
+    padding: 0px;
+    background-image: none;
+  }
+  .goodfood {
+    width: 350px;
+    height: auto;
+    flex-shrink: 1;
+  }
+
+  .logo {
+    margin-top: 1px;
+  }
+
+  .logo span {
+    margin-top: 1px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 1px;
+  }
+  s .logo img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .sandw {
+    width: 160px;
+    height: auto;
+  }
+
+  .navigation {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .soc {
+    margin-left: 1px;
+    width: 300px;
+    height: auto;
+  }
+
+  .section1 img {
+    width: 400px;
+    padding-top: 1px;
+  }
+
+   .section1 .Orange {
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .way p {
+    width: 330px;
+    height: 99px;
+    padding-bottom: 30px;
+  }
+
+  .section1 .btn{
+    margin-bottom: 20px;
+  }
+
+.avacados{
+  display: none;
+}
+
+.chicken {
+ display: none;
+
+}
+
+.section2 .Orange{
+  margin-top: 30px;
+}
+
+.section2 background-image{
+  
+}
+
+
+
+}
+/* 
 .fplace {
   padding-top: 87px;
   margin-left: 282px;
@@ -420,9 +504,9 @@
 }
 .all{
   display: flex;
-} */
+} 
 
-/* .section6 {
+ .section6 {
   background: url(./img/ananass.svg) no-repeat; {
     width: 205.675px;
     height: 307.756px;
