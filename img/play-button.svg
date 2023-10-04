@@ -1,0 +1,17 @@
+<svg width="118" height="118" viewBox="0 0 118 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Play button" filter="url(#filter0_d_401_203)">
+<circle id="Ellipse 97" cx="38.5725" cy="38.5725" r="38.5725" transform="matrix(1 1.57771e-09 -0.00707335 0.999975 20.304 10.3047)" fill="white"/>
+<path id="Vector 1" d="M66.8499 48.1862L56.3687 41.0967C55.7076 40.6496 54.81 41.1255 54.8043 41.9262L54.7068 55.7114C54.7012 56.5003 55.5687 56.9785 56.2374 56.5553L66.8162 49.8596C67.4273 49.4728 67.4451 48.5888 66.8499 48.1862Z" fill="#FF9401"/>
+</g>
+<defs>
+<filter id="filter0_d_401_203" x="0.0300293" y="0.304688" width="117.147" height="117.143" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="10"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.580392 0 0 0 0 0.00392157 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_401_203"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_401_203" result="shape"/>
+</filter>
+</defs>
+</svg>
