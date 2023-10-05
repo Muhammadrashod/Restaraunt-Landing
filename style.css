@@ -1,3 +1,5 @@
+/*------------------------------HEADER-----------------------------*/
+
 .section0 {
   padding: 0px 215px 0px;
   background: url(./img/foodish.png);
@@ -5,14 +7,16 @@
   background-position: right 80px top 148px;
 }
 
-* p {
+ p {
   color: #3f3232;
   font-family: "Circular Std";
   font-size: 18px;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 160%;
 }
+
+
 
 .logo {
   margin-top: 45px;
@@ -27,9 +31,6 @@
   width: 251px;
   height: 177px;
 }
-.navigation {
-  margin-top: 55px;
-}
 
 .logo span {
   font-family: "Playfair Display", serif;
@@ -41,28 +42,36 @@
 }
 
 .navigation {
+  margin: 10px 350px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .navigate {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: left;
 }
 .food {
   margin-top: 40px;
 }
 .soc {
-  width: 532px;
-  height: 346px;
-  flex-shrink: 0;
+  width: 270px;
+  height: 270px;
 }
 
 .goodfood {
   width: 532px;
   height: 346px;
   flex-shrink: 0;
+}
+
+.section0 .btn {
+  justify-content: center;
+  display: flex;
+  margin-right: 850px;
+  margin-top: 60px;
 }
 
 .fd {
@@ -73,8 +82,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1px;
 }
+
+/*------------------------------SECTION1-----------------------------*/
+
 .gradient {
   background: linear-gradient(
     180deg,
@@ -139,21 +150,12 @@
   cursor: pointer;
 }
 
-
-
-.section0 .btn {
-  justify-content: center;
-  display: flex;
-  margin-right: 850px;
-  margin-top: 60px;
-}
-
 .section1 .btn {
   text-align: center;
   margin-right: 210px;
 }
 
-.play{
+.play {
   position: absolute;
   margin-top: 450px;
   margin-left: 717px;
@@ -164,8 +166,12 @@
   padding-top: 62px;
   padding-bottom: 1px;
 }
+
+/*------------------------------SECTION2-----------------------------*/
+
 .section2 {
-  background-image: url(./img/salade.png) no-repeat;
+ background-image:url(./img/salade.png);
+ background-repeat: no-repeat;
 }
 
 .avacados {
@@ -228,6 +234,8 @@
   line-height: 160%;
 }
 
+/*------------------------------SECTION3-----------------------------*/
+
 .section3 {
   background-image: url(./img/noodles.png);
   background-repeat: no-repeat;
@@ -245,7 +253,6 @@
   justify-content: space-around;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin: 85px 226px 85px;
   border-radius: 8px solid;
   background: #fff;
@@ -276,6 +283,8 @@
   position: absolute;
   margin-left: 1221px;
 }
+
+/*------------------------------SECTION4-----------------------------*/
 
 .section4 {
   background-image: url(./img/cocacola.png);
@@ -362,6 +371,9 @@
   font-weight: 450;
   line-height: 22px;
 }
+
+/*------------------------------SECTION5-----------------------------*/
+
 .section5 {
   background-image: url(./img/arow.svg);
   background-repeat: no-repeat;
@@ -374,10 +386,10 @@
     background-image: none;
   }
 
-.section0 .btn{
-  margin-top: 15px;
-  margin-right: 100px;
-}
+  .section0 .btn {
+    margin-top: 15px;
+    margin-right: 100px;
+  }
 
   .goodfood {
     width: 350px;
@@ -446,10 +458,16 @@
 
   .chicken {
     display: none;
-  } 
+  }
+
+  .play {
+    width: 30px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 717px;
+  }
+
 }
-
-
 
 /* 
 .fplace {
